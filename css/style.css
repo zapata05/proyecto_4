@@ -1,0 +1,48 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*para que se aga un cuadro*/
+}
+#container{
+width: 100vw;
+height: 100vh;
+background: aqua;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: flex;
+
+}
+.cubo{
+   
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    padding: 20px;
+    line-height: 60px;/*para hacer que se mueva hacia la linea*/
+    font-size: 60px;
+
+}
+.cubo:nth-last-child(1){
+align-self: center;
+justify-self: center;
+}
+.cubo:nth-last-child(2){
+display: flex;
+    align-self: flex-start ;
+justify-self: center;
+}
+.cubo:nth-last-child(3){
+    align-self: flex-start ;
+justify-self: center;
+}
+
+.cubo:nth-last-child(4){
+        align-self: flex-start ;
+      justify-self: center;
+}
+        .cubo:nth-last-child(5){
+            align-self: flex-start ;
+justify-self: center;
+}
