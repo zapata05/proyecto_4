@@ -14,6 +14,26 @@ justify-content: space-between;
 align-items: flex;
 
 }
+#container2{
+    width: 100vw;
+    height: 100vh;
+    background: aqua;
+    display: flex;
+    justify-content: end;
+  
+    align-items: flex-end;
+    
+    }
+    #container3{
+        width: 100vw;
+        height: 100vh;
+        background: aqua;
+        display: flex;
+        justify-content: end;
+       
+        align-items: flex-end;
+        
+        }
 .cubo{
    
     width: 100px;
@@ -25,24 +45,9 @@ align-items: flex;
 
 }
 .cubo:nth-last-child(1){
-align-self: center;
-justify-self: center;
-}
-.cubo:nth-last-child(2){
-display: flex;
-    align-self: flex-start ;
-justify-self: center;
-}
-.cubo:nth-last-child(3){
-    align-self: flex-start ;
-justify-self: center;
+    display: flex;
+   
+justify-content: center;
 }
 
-.cubo:nth-last-child(4){
-        align-self: flex-start ;
-      justify-self: center;
-}
-        .cubo:nth-last-child(5){
-            align-self: flex-start ;
-justify-self: center;
-}
+
